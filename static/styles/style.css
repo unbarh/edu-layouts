@@ -1,0 +1,47 @@
+body {
+    width: 2000px;
+    margin: 0;
+}
+
+header {
+    background-color: #2ecc71;
+    padding-top: 22px;
+}
+
+.main-menu {
+    padding: 0;
+    margin: 0 410px 0 420px;  
+}
+
+.main-menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 52px;
+}
+
+.main-menu li:last-child {
+    border-radius: 21px;
+    background-color: #ffffff;
+    padding: 10.5px 35px;
+    margin: 0;
+}
+
+.menu {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-menu .element1 {
+    color: #ffffff;
+    font-family: "Segoe UI Black", sans-serif;
+    font-size: 39px;
+    font-style: italic;
+    margin-right: 334px;  
+}
+
+.main-menu .element2 {
+    color: #2ecc71;
+    font-weight: bold;
+}
