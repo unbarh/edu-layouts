@@ -45,3 +45,74 @@ header {
     color: #2ecc71;
     font-weight: bold;
 }
+
+.block1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 77px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/fruits.png");
+    background-position: -150px 17px;
+    background-repeat: no-repeat;
+}
+
+
+.left {
+    justify-content: flex-start;
+    margin-top: 120px;
+    margin-left: 420px;
+}
+
+.block1 .icon {
+    width: 111px;
+    height: 111px;
+    background-color: #2ecc71;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/icon.png");
+    background-repeat: no-repeat;
+    margin-bottom: 66px;
+}
+
+.block1 .text {
+    width: 590px;
+    margin-bottom: 61px;
+}
+
+.first-h1 {
+    color: #f4f4f4;
+    font-weight: normal;
+    font-size: 62px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px; 
+}
+
+.first-h1 span {
+    font-weight: bold;
+}
+
+.first-p {
+    color: #f4f4f4;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.download {
+    width: 297px;
+    height: 46px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/download.png");
+}
+
+.right {
+    justify-content: flex-end;
+    margin-right: 410px;
+}
+
+.photo1 {
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/photo1.png");
+    background-repeat: no-repeat;
+    height: 753px;
+    width: 404px;
+}
