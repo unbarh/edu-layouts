@@ -63,9 +63,10 @@ header {
     margin-left: 420px;
 }
 
-.block1 .icon {
+.icon-b1 {
     width: 111px;
     height: 111px;
+    border-radius: 25%;
     background-color: #2ecc71;
     background-image: url("D:/Git/repository/edu-layouts/static/images/block1/icon.png");
     background-repeat: no-repeat;
@@ -115,4 +116,115 @@ header {
     background-repeat: no-repeat;
     height: 753px;
     width: 404px;
+}
+
+.block2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.block2 .left {
+    display: flex;
+    align-items: center;
+    margin-top: 92px;
+}
+
+.icon-b2-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone {
+    width: 336px;
+    height: 709px;
+    z-index: 2;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/phone.png")
+}
+
+.icon-b2 {
+    position: absolute;
+    height: 69px;
+    width: 69px;
+    border: 3px solid #ffffff;
+    background-color: #e7e7e7;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.icon1-b2 {
+    top: 1106px;
+    left: 794px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon1.png");
+}
+
+.icon2-b2 {
+    top: 1181px;
+    left: 896px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon2.png");
+}
+
+.icon4-b2 {
+    top: 1450px;
+    left: 896px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon4.png");
+}
+
+.icon5-b2 {
+    top: 1526px;
+    left: 794px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon5.png");
+}
+
+.icon3-b2 {
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #ffffff;
+    background-color: #2ecc71;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon3.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
+    margin-left: 160px;
+}
+
+.circle {
+    position: absolute;
+    left: 504px;
+    top: 1119px;
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    z-index: 1;
+}
+
+.block2 .right {
+    margin-top: 372px;
+}
+
+.second-h1 {
+    color: #5a5a5a;
+    font-weight: normal;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.second-h1 span {
+    color: #2ecc71;
+}
+
+.second-p {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
 }
