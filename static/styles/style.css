@@ -122,17 +122,13 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .block2 .left {
     display: flex;
     align-items: center;
     margin-top: 92px;
-}
-
-.icon-b2-flex {
-    display: flex;
-    flex-direction: column;
 }
 
 .phone {
@@ -144,8 +140,8 @@ header {
 
 .icon-b2 {
     position: absolute;
-    height: 69px;
-    width: 69px;
+    height: 59px;
+    width: 59px;
     border: 3px solid #ffffff;
     background-color: #e7e7e7;
     background-repeat: no-repeat;
@@ -167,21 +163,21 @@ header {
 }
 
 .icon4-b2 {
-    top: 1450px;
+    top: 1465px;
     left: 896px;
     background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon4.png");
 }
 
 .icon5-b2 {
-    top: 1526px;
+    top: 1540px;
     left: 794px;
     background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon5.png");
 }
 
 .icon3-b2 {
     z-index: 2;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     border: 5px solid #ffffff;
     background-color: #2ecc71;
     background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon3.png");
@@ -189,7 +185,7 @@ header {
     background-position: 50% 50%;
     border-radius: 50%;
     box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
-    margin-left: 160px;
+    margin-left: 165px;
 }
 
 .circle {
@@ -227,4 +223,74 @@ header {
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-top: 116px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/fruits.png");
+    background-repeat: no-repeat;
+    background-position: 230px 335px;
+}
+
+.block3 .text {
+    text-align: center;
+    margin-bottom: 111px;
+}
+
+.third-h1 {
+    color: #5a5a5a;
+    font-weight: normal;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.third-h1 span {
+    color: #2ecc71;
+}
+
+.third-p {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.phone-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.phone1 {
+    width: 253px;
+    height: 451px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone1.png");
+    position: relative;
+    left: 25px;
+    z-index: 1;
+}
+
+.phone2 {
+    width: 337px;
+    height: 545px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone2.png");
+    z-index: 2;
+}
+
+.phone3 {
+    width: 253px;
+    height: 451px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone3.png");
+    position: relative;
+    right: 25px;
 }
