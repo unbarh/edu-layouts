@@ -294,3 +294,192 @@ header {
     position: relative;
     right: 25px;
 }
+
+.block4 {
+    display: flex;
+    justify-content: space-between;                                        
+    margin: 150px 410px 140px 420px;
+}
+
+.block4 .text {
+    margin-top: 114px; 
+}
+
+.fourth-h1 {
+    color: #5a5a5a;
+    font-weight: normal;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 19px;
+}
+
+.fourth-h1 span {
+    color: #2ecc71;
+}
+
+.fourth-p {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 34px;
+}
+
+.block4-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo1.png");
+    background-repeat: no-repeat;
+    background-position: 17px 25px;
+    width: 265px;
+    height: 105px;
+    padding-left: 132px;
+    padding-right: 20px;
+    margin-bottom: 28px;
+    line-height: 20px;
+}
+
+.block4-1 .name {
+    color: #2ecc71;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-1 .description {
+    color: #5a5a5a;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.block4-1 .quantity {
+    color: #2ecc71;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-1 .time {
+    color: #b4b4b4;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 17px;
+} 
+
+.block4-1 .time span {
+    color: #b4b4b4;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo2.png");
+    background-repeat: no-repeat;
+    background-position: 14px 12px;
+    width: 334px;
+    height: 133px;
+    margin-bottom: 28px;
+    margin-left: -52px;
+    padding-left: 162px;
+    padding-right: 26px;
+    line-height: 25px;
+}
+
+.block4-2 .name {
+    color: #2ecc71;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-2 .description {
+    color: #5a5a5a;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.block4-2 .quantity {
+    color: #2ecc71;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-2 .time {
+    color: #2ecc71;
+    font-size: 31px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+} 
+
+.block4-2 .time span {
+    color: #b4b4b4;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo3.png");
+    background-repeat: no-repeat;
+    background-position: 9px 23px;;
+    width: 265px;
+    height: 105px;
+    padding-left: 132px;
+    padding-right: 20px;
+    line-height: 20px;
+}
+
+.block4-3 .name {
+    color: #2ecc71;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-3 .description {
+    color: #5a5a5a;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.block4-3 .quantity {
+    color: #2ecc71;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.block4-3 .time {
+    color: #2ecc71;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 17px;
+} 
+
+.block4-3 .time span {
+    color: #b4b4b4;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
