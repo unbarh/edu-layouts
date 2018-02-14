@@ -13,24 +13,24 @@ header {
     margin: 0 410px 0 420px;  
 }
 
-.main-menu li {
+.item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 52px;
 }
 
-.main-menu li:last-child {
+.item:last-child {
     margin-right: 0;
 }
 
-.menu {
+.link {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
 }
 
-.main-menu .element1 {
+.item-first {
     color: #ffffff;
     font-family: "Segoe UI Black", sans-serif;
     font-size: 39px;
@@ -38,7 +38,7 @@ header {
     margin-right: 334px;  
 }
 
-.element2 {
+.link-last {
     color: #2ecc71;
     font-weight: bold;
     border-radius: 21px;
@@ -50,7 +50,7 @@ header {
     font-weight: bold;
 }
 
-.block1 {
+.welcome {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -61,13 +61,13 @@ header {
 }
 
 
-.left {
+.wrapper {
     justify-content: flex-start;
     margin-top: 120px;
     margin-left: 420px;
 }
 
-.icon-b1 {
+.icon {
     width: 111px;
     height: 111px;
     border-radius: 25%;
@@ -77,12 +77,12 @@ header {
     margin-bottom: 66px;
 }
 
-.block1 .text {
+.main {
     width: 590px;
     margin-bottom: 61px;
 }
 
-.first-h1 {
+.title {
     color: #f4f4f4;
     font-weight: normal;
     font-size: 62px;
@@ -92,11 +92,11 @@ header {
     margin-bottom: 26px; 
 }
 
-.first-h1 span {
+.title span {
     font-weight: bold;
 }
 
-.first-p {
+.text {
     color: #f4f4f4;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
@@ -105,11 +105,11 @@ header {
     line-height: 32px;
 }
 
-.download {
+.buttons {
     display: flex;
 }
 
-.downloadGoogle {
+.button-Google {
     width: 137px;
     height: 46px;
     background-image: url("D:/Git/repository/edu-layouts/static/images/block1/downloadGoogle.png");
@@ -117,19 +117,19 @@ header {
     margin-right: 30px;
 }
 
-.downloadAppstore {
+.button-Appstore {
     width: 130px;
     height: 46px;
     background-image: url("D:/Git/repository/edu-layouts/static/images/block1/downloadAppstore.png");
     background-repeat: no-repeat;
 }
 
-.right {
+.decals {
     justify-content: flex-end;
     margin-right: 410px;
 }
 
-.photo1 {
+.decal-1 {
     background-image: url("D:/Git/repository/edu-layouts/static/images/block1/photo1.png");
     background-repeat: no-repeat;
     height: 753px;
@@ -144,6 +144,7 @@ header {
     background-image: url("D:/Git/repository/edu-layouts/static/images/block2/strawberry.png");
     background-repeat: no-repeat;
     background-position: 900px -136px;
+    padding: 0 410px 0 420px;
 }
 
 .block2 .left {
