@@ -1,103 +1,109 @@
-body {
+.main-page {
     width: 2000px;
     margin: 0;
 }
 
-header {
+.header {
+    display: flex;
+    align-items: center;
     background-color: #2ecc71;
-    padding-top: 22px;
+    padding: 22px 410px 0 420px;
 }
 
-.main-menu {
+.header__logo {
+    width: 133px;
+    height: 38px;
+    margin-right: 334px; 
+}
+
+.header__button {
+    color: #2ecc71;
+    height: 22px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    padding: 10.5px 0;
+    margin-right: 0px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 140px;
+    
+}
+.header__menu {
     padding: 0;
-    margin: 0 410px 0 420px;  
+     
 }
 
-.item {
+.menu__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 52px;
 }
 
-.item:last-child {
-    margin-right: 0;
-}
 
-.link {
+
+.menu__link {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
 }
 
-.item-first {
-    color: #ffffff;
-    font-family: "Segoe UI Black", sans-serif;
-    font-size: 39px;
-    font-style: italic;
-    margin-right: 334px;  
-}
-
-.link-last {
-    color: #2ecc71;
-    font-weight: bold;
-    border-radius: 21px;
-    background-color: #ffffff;
-    padding: 10.5px 35px;
-    margin-right: 0px;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 .welcome {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
     justify-content: space-between;
-    padding-top: 77px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/fruits.png");
+    background-color: #2ecc71;
+    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/fruits.png");
     background-position: -150px 17px;
     background-repeat: no-repeat;
+    padding: 77px 410px 0 420px;
 }
 
 
-.wrapper {
+.welcome__main {
     justify-content: flex-start;
     margin-top: 120px;
-    margin-left: 420px;
+    
 }
 
-.icon {
+.welcome__icon {
     width: 111px;
     height: 111px;
     border-radius: 25%;
     background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/icon.png");
+    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/icon.png");
     background-repeat: no-repeat;
     margin-bottom: 66px;
 }
 
-.main {
+.welcome__content {
     width: 590px;
     margin-bottom: 61px;
 }
 
 .title {
-    color: #f4f4f4;
-    font-weight: normal;
-    font-size: 62px;
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
-    margin-bottom: 26px; 
+    font-size: 48px;
+    margin-bottom: 26px;
+    font-weight: normal;
 }
 
-.title span {
+.welcome__title {
+    color: #f4f4f4;
+    font-size: 62px;
+}
+
+.welcome__title_bold {
     font-weight: bold;
 }
 
 .text {
-    color: #f4f4f4;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     padding: 0;
@@ -105,32 +111,32 @@ header {
     line-height: 32px;
 }
 
-.buttons {
+.welcome__text {
+    color: #f4f4f4;
+}
+
+.welcome__buttons {
     display: flex;
 }
 
-.button-Google {
+.welcome__button-google {
     width: 137px;
     height: 46px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/downloadGoogle.png");
+    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/downloadGoogle.png");
     background-repeat: no-repeat;
     margin-right: 30px;
 }
 
-.button-Appstore {
+.welcome__button-appstore {
     width: 130px;
     height: 46px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/downloadAppstore.png");
+    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/downloadAppstore.png");
     background-repeat: no-repeat;
 }
 
-.decals {
+.welcome__decal {
     justify-content: flex-end;
-    margin-right: 410px;
-}
-
-.decal-1 {
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/photo1.png");
+    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/photo1.png");
     background-repeat: no-repeat;
     height: 753px;
     width: 404px;
