@@ -29,11 +29,10 @@
     font-weight: bold;
     font-size: 18px;
     width: 140px;
-    
 }
+
 .header__menu {
-    padding: 0;
-     
+    padding: 0; 
 }
 
 .menu__item {
@@ -42,8 +41,6 @@
     margin-right: 52px;
 }
 
-
-
 .menu__link {
     color: #ffffff;
     text-decoration: none;
@@ -51,18 +48,16 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 .welcome {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/fruits.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/welcome/fruits.png");
     background-position: -150px 17px;
     background-repeat: no-repeat;
     padding: 77px 410px 0 420px;
 }
-
 
 .welcome__main {
     justify-content: flex-start;
@@ -70,18 +65,17 @@
     
 }
 
-.welcome__icon {
+.main__icon {
     width: 111px;
     height: 111px;
     border-radius: 25%;
     background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/icon.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/welcome/icon.png");
     background-repeat: no-repeat;
     margin-bottom: 66px;
 }
 
-.welcome__content {
-    width: 590px;
+.main__content {
     margin-bottom: 61px;
 }
 
@@ -94,12 +88,12 @@
     font-weight: normal;
 }
 
-.welcome__title {
+.title_white {
     color: #f4f4f4;
     font-size: 62px;
 }
 
-.welcome__title_bold {
+.title_bold {
     font-weight: bold;
 }
 
@@ -111,63 +105,56 @@
     line-height: 32px;
 }
 
-.welcome__text {
+.text_white {
     color: #f4f4f4;
 }
 
-.welcome__buttons {
+.main__buttons {
     display: flex;
 }
 
-.welcome__button-google {
+.buttons__button-google {
     width: 137px;
     height: 46px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/downloadGoogle.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/welcome/downloadGoogle.png");
     background-repeat: no-repeat;
     margin-right: 30px;
 }
 
-.welcome__button-appstore {
+.buttons__button-appstore {
     width: 130px;
     height: 46px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/downloadAppstore.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/welcome/downloadAppstore.png");
     background-repeat: no-repeat;
 }
 
 .welcome__decal {
     justify-content: flex-end;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/welcome/photo1.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/welcome/photo1.png");
     background-repeat: no-repeat;
     height: 753px;
     width: 404px;
 }
 
-.block2{
+.main__item-top {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 100px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/strawberry.png");
+    background-image: url(":/Git/repository/edu-layouts/static/images/main/item-top/strawberry.png");
     background-repeat: no-repeat;
     background-position: 900px -136px;
-    padding: 0 410px 0 420px;
+    padding: 92px 410px 100px 420px;
 }
 
-.block2 .left {
-    display: flex;
-    align-items: center;
-    margin-top: 92px;
-}
-
-.phone {
+.decals__decal-1 {
+    position: relative;
     width: 336px;
     height: 709px;
     z-index: 2;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/phone.png")
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/phone.png")
 }
 
-.icon-b2 {
-    position: absolute;
+.decals__icon {
     height: 59px;
     width: 59px;
     border: 3px solid #ffffff;
@@ -175,48 +162,51 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border-radius: 50%;
+    position: absolute;
     z-index: 2;
 }
 
-.icon1-b2 {
+.decals__icon-1 {
     top: 1106px;
     left: 794px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon1.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon1.png");
 }
 
-.icon2-b2 {
+.decals__icon-2 {
     top: 1181px;
     left: 896px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon2.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon2.png");
 }
 
-.icon4-b2 {
-    top: 1465px;
-    left: 896px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon4.png");
-}
-
-.icon5-b2 {
-    top: 1540px;
-    left: 794px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon5.png");
-}
-
-.icon3-b2 {
+.decals__icon-3 {
+    position: absolute;
     z-index: 2;
     height: 90px;
     width: 90px;
+    top: 1303px;
+    left: 924px;
     border: 5px solid #ffffff;
     background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon3.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon3.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border-radius: 50%;
-    box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
-    margin-left: 165px;
+    box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1); 
 }
 
-.circle {
+.decals__icon-4 {
+    top: 1465px;
+    left: 896px;
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon4.png");
+}
+
+.decals__icon-5 {
+    top: 1540px;
+    left: 794px;
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon5.png");
+}
+
+.decals__circle {
     position: absolute;
     left: 504px;
     top: 1119px;
@@ -227,178 +217,115 @@
     z-index: 1;
 }
 
-.block2 .right {
-    margin-top: 372px;
+.item-top__content {
+    margin-top: 245px;
 }
 
-.second-h1 {
-    color: #5a5a5a;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 29px;
-}
-
-.second-h1 span {
+.title_green {
     color: #2ecc71;
 }
 
-.second-p {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
-}
-
-.block3 {
+.main__item-middle {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f9f9f9;
     width: 100%;
     padding-top: 116px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/fruits.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle/fruits.png");
     background-repeat: no-repeat;
     background-position: 230px 335px;
 }
 
-.block3 .text {
+.item-middle__content {
     text-align: center;
     margin-bottom: 111px;
 }
 
-.third-h1 {
-    color: #5a5a5a;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 31px;
-}
-
-.third-h1 span {
-    color: #2ecc71;
-}
-
-.third-p {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
-}
-
-.phone-flex {
+.item-middle__decals {
     display: flex;
-    flex-direction: row;
     align-items: flex-end;
 }
 
-.phone1 {
+.item-middle__decal-1 {
     width: 253px;
     height: 451px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone1.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle//phone1.png");
     position: relative;
     left: 25px;
     z-index: 1;
 }
 
-.phone2 {
+.item-middle__decal-2 {
     width: 337px;
     height: 545px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone2.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle/phone2.png");
     z-index: 2;
 }
 
-.phone3 {
+.item-middle__decal-3 {
     width: 253px;
     height: 451px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone3.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle/phone3.png");
     position: relative;
     right: 25px;
 }
 
-.block4 {
+.main__item-bottom {
     display: flex;
     justify-content: space-between;                                        
     margin: 150px 410px 140px 420px;
 }
 
-.block4 .text {
+.item-bottom__content {
     margin-top: 114px; 
 }
 
-.fourth-h1 {
-    color: #5a5a5a;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 19px;
+.item-bottom__infoblocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 400px;
 }
 
-.fourth-h1 span {
-    color: #2ecc71;
-}
-
-.fourth-p {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
-}
-
-.block4-1 {
+.infoblocks__infoblock {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #efefef;
     border-radius: 10px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo1.png");
-    background-repeat: no-repeat;
-    background-position: 17px 25px;
     width: 265px;
     height: 105px;
-    padding-left: 132px;
-    padding-right: 20px;
-    margin-bottom: 28px;
     line-height: 20px;
 }
 
-.block4-1 .name {
+.infoblocks__infoblock-name {
     color: #2ecc71;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 
-.block4-1 .description {
+.infoblocks__infoblock-description {
     color: #5a5a5a;
     font-size: 12px;
     font-family: "Roboto", sans-serif;
 }
 
-.block4-1 .quantity {
+.infoblocks__infoblock-quantity {
     color: #2ecc71;
     font-size: 12px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/dot.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/dot.png");
     background-repeat: no-repeat;
     background-position: 36px 6px;
     white-space: pre;
 }
 
-.block4-1 .time {
+.infoblocks__infoblock-time {
     color: #b4b4b4;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
@@ -406,168 +333,89 @@
     line-height: 17px;
 } 
 
-.block4-1 .time span {
+.infoblocks__infoblock-time_size {
     color: #b4b4b4;
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
     padding-left: 39px;
 }
 
-.block4-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #efefef;
-    border-radius: 10px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo2.png");
+.infoblocks__infoblock-1 {
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/photo1.png");
+    background-repeat: no-repeat;
+    background-position: 17px 25px;
+    padding-left: 132px;
+    padding-right: 20px;
+}
+
+.infoblocks__infoblock-2 {
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/photo2.png");
     background-repeat: no-repeat;
     background-position: 14px 12px;
     width: 334px;
     height: 133px;
-    margin-bottom: 28px;
-    margin-left: -52px;
     padding-left: 162px;
     padding-right: 26px;
     line-height: 25px;
 }
 
-.block4-2 .name {
-    color: #2ecc71;
+.infoblocks__infoblock-2-name {
     font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
 }
 
-.block4-2 .description {
-    color: #5a5a5a;
+.infoblocks__infoblock-2-description {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
 }
 
-.block4-2 .quantity {
-    color: #2ecc71;
+.infoblocks__infoblock-2-quantity {
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/dot.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/dot.png");
     background-repeat: no-repeat;
     background-position: 46px 9px;
-    white-space: pre;
 }
 
-.block4-2 .time {
+.infoblocks__infoblock-2-time {
     color: #2ecc71;
     font-size: 31px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
     line-height: 20px;
 } 
 
-.block4-2 .time span {
+.infoblocks__infoblock-2-time_size {
     color: #b4b4b4;
     font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
     padding-left: 49px;
 }
 
-.block4-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #efefef;
-    border-radius: 10px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo3.png");
+.infoblocks__infoblock-3 {
+    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/photo3.png");
     background-repeat: no-repeat;
     background-position: 9px 23px;;
-    width: 265px;
-    height: 105px;
     padding-left: 132px;
     padding-right: 20px;
-    line-height: 20px;
 }
 
-.block4-3 .name {
-    color: #2ecc71;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
+.infoblocks__infoblock-3-time_color {
+    color: #2ecc71
 }
 
-.block4-3 .description {
-    color: #5a5a5a;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-}
-
-.block4-3 .quantity {
-    color: #2ecc71;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/dot.png");
-    background-repeat: no-repeat;
-    background-position: 44px 6px;
-    white-space: pre;
-}
-
-.block4-3 .time {
-    color: #2ecc71;
-    font-size: 25px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    line-height: 17px;
-} 
-
-.block4-3 .time span {
-    color: #b4b4b4;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    padding-left: 39px;
-}
-
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/footer/fruits.png");
+    background-image: url("/Git/repository/edu-layouts/static/images/footer/fruits.png");
     background-position: -90px 55px;
     background-repeat: no-repeat;
+}
+
+.footer__content {
     padding-top: 113px;
-    padding-bottom: 100px;
-}
-
-.footer-h1 {
-    color: #ffffff;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 31px;
+    padding-bottom: 52px;
     text-align: center;
 }
 
-.footer-h1 span {
-    font-weight: bold;
-}
 
-.footer-p {
-    color: #ffffff;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-footer a {
+.footer__button {
     border-radius: 21px;
     background-color: #ffffff;
     color: #2ecc71;
@@ -576,4 +424,5 @@ footer a {
     font-weight: bold; 
     font-family: "Roboto", sans-serif;
     padding: 10.5px 85px;
+    margin-bottom: 40px;
 }
