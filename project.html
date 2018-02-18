@@ -1,112 +1,136 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <link href="static/styles/style.css" type="text/css" rel="stylesheet"> 
+        <meta charset='utf-8'>
+        <link href='static/styles/style.css' type='text/css' rel='stylesheet'> 
     </head>    
-    <body class="main-page">
-        <header class="header">
-            <img class="header__logo" src="static/images/header/logo.png"></img>
-            <ul class="header__menu">
-               <li class="menu__item"><a href="#" class="menu__link">About</a></li>
-               <li class="menu__item"><a href="#" class="menu__link">Features</a></li>
-               <li class="menu__item"><a href="#" class="menu__link">Reviews</a></li>
-               <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-               <li class="menu__item"><a href="#" class="menu__link">Support</a></li>
-            </ul>
-            <a href="#" class="header__button">Get App</a>  
+    <body>
+        <header class='header'>
+            <div class='header__wrapper'>     
+                <img class='header__logo' src='static/images/logo.png'></img>
+                <nav class='header-menu'>
+                <a href='#' class='header-menu__link'>About</a>
+                <a href='#' class='header-menu__link'>Features</a>
+                <a href='#' class='header-menu__link'>Reviews</a>
+                <a href='#' class='header-menu__link'>Blog</a>
+                <a href='#' class='header-menu__link'>Support</a>
+                </nav>
+                <button href='#' class='button header__button--padding header__button--width'>Get App</button>  
+            </div>     
         </header>
-        <div class="welcome">
-            <div class="welcome__main">
-                <div class="main__icon"></div>
-                <div class="main__content">
-                    <h1 class="title title_white">Helps you eat <span class="title_bold">better.</span></h1>
-                    <p class="text text_white">FitApp is a free calorie counting and diet app PSD template which<br>
-                    includes high quality 9 screens. This template can be very helpful if you're<br>
-                    planning to build food tracking application.</p>
+        <div class='welcome'>
+            <div class='welcome__wrapper'>
+                <div class='welcome__main'>
+                    <div class='welcome__icon'></div>
+                    <div class='welcome__content'>
+                        <h1 class='title welcome__title'>Helps you eat <strong>better.</strong></h1>
+                        <p class='text welcome__text'>FitApp is a free calorie counting and diet app PSD template which <br>includes high quality 9 screens. This template can be very helpful if you're <br>planning to build food tracking application.</p>
+                    </div>
+                    <div class='welcome__buttons'>
+                        <a href='#' class='welcome__button-google'></a>
+                        <a href='#' class='welcome__button-appstore'></a>
+                    </div>    
                 </div>
-                <div class="main__buttons">
-                    <a href="#" class="buttons__button-google"></a>
-                    <a href="#" class="buttons__button-appstore"></a>
-                </div>    
+                <div class='welcome__decal'></div>
             </div>
-            <div class="welcome__decal"></div>
         </div>
-        <div class="main">
-            <div class="main__item-top">
-                <div class="item-top__decals">  
-                    <div class="decals__decal-1"></div>
-                    <div class="decals__icon decals__icon-1"></div>    
-                    <div class="decals__icon decals__icon-2"></div>
-                    <div class="decals__icon-3"></div>
-                    <div class="decals__icon decals__icon-4"></div>
-                    <div class="decals__icon decals__icon-5"></div>        
-                    <div class="decals__circle"></div>
-                </div>     
-                <div class="item-top__content">    
-                    <h1 class="title">Best calorie <span class="title_green">counter app!</span></h1>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> 
-                    sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. 
-                    Ut enim ad minim veniam.</p>
-                </div>
+        <div class='best'>
+            <div class='kek'>
+                <div class='best__decal'></div>
+                <div class='best__circle'></div>  
+                <div class='icon best__icon-1' style="background-image: url('static/images/icon1-best.png')"></div>    
+                <div class='icon best__icon-2' style="background-image: url('static/images/icon2-best.png')"></div>
+                <div class='best__icon-3' style="background-image: url('static/images/icon3-best.png')"></div>
+                <div class='icon best__icon-4' style="background-image: url('static/images/icon4-best.png')"></div>
+                <div class='icon best__icon-5' style="background-image: url('static/images/icon5-best.png')"></div>        
             </div>         
-            <div class="main__item-middle">
-                <div class="item-middle__content">
-                    <h1 class="title">A simple way to <span class="title_green">plan your diet!</span></h1>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                    sed do eiusmod tempor incididunt ut labore et<br> 
-                    dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="item-middle__decals">
-                    <div class="item-middle__decal-1"></div>
-                    <div class="item-middle__decal-2"></div>
-                    <div class="item-middle__decal-3"></div>
-                </div>    
-            </div>    
-            <div class="main__item-bottom">
-                <div class="item-bottom__content">
-                    <h1 class="title">Manage your <span class="title_green">meal time</span></h1>
-                    <p class="text">Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit,<br> sed do eiusmod tempor 
-                    incididunt ut labore et dolore<br> magna aliqua. Ut enim 
-                    ad minim veniam.</p>
-                </div>
-                <div class="item-bottom__infoblocks">   
-                    <div class="infoblocks__infoblock infoblocks__infoblock-1">
-                        <div>
-                            <div class="infoblocks__infoblock-name">Apple</div> 
-                            <div class="infoblocks__infoblock-description">Lorem ipsum dolor sit</div>
-                            <div class="infoblocks__infoblock-quantity">35 G       189 KCAL</div>
-                        </div>    
-                        <div class="infoblocks__infoblock-time">01:00<br> <span class="infoblocks__infoblock-time_size">PM</span></div>
-                    </div>
-                    <div class="infoblocks__infoblock infoblocks__infoblock-2">
-                         <div>
-                            <div class="infoblocks__infoblock-name infoblocks__infoblock-2-name ">Sandwich</div>
-                            <div class="infoblocks__infoblock-description infoblocks__infoblock-2-description">Lorem ipsum dolor sit</div>
-                            <div class="infoblocks__infoblock-quantity infoblocks__infoblock-2-quantity">35 G       189 KCAL</div>
-                        </div>    
-                        <div class="infoblocks__infoblock-time infoblocks__infoblock-2-time">03:00<br> <span class="infoblocks__infoblock-2-time_size">PM</span></div>
-                    </div>
-                    <div class="infoblocks__infoblock infoblocks__infoblock-3">
-                        <div>    
-                            <div class="infoblocks__infoblock-name">Salad with chicken</div>
-                            <div class="infoblocks__infoblock-description">Lorem ipsum dolor sit</div>
-                            <div class="infoblocks__infoblock-quantity">220 G       189 KCAL</div> 
-                        </div>
-                        <div class="infoblocks__infoblock-time infoblocks__infoblock-3-time_color">05:30<br> <span class="infoblocks__infoblock-time_size">PM</span></div>
-                    </div>
-                </div>    
+            <div class='best__content'>    
+                <h1 class='title best__title'>Best calorie <span class='best__title--green'>counter app!</span></h1>
+                <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> 
+                sed do eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. 
+                Ut enim ad minim veniam.</p>
             </div>
         </div>        
-        <footer class="footer">
-            <div class="footer__content">
-                <h1 class="title title_white">Download, customize & <span class="title_bold">enjoy!</span></h1>
-                <p class="text text_white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        <div class='simple'>
+            <div class='simple__content'>
+                <h1 class='title simple__title'>A simple way to <span class='simple__title--green'>plan your diet!</span></h1>
+                <p class='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt ut labore et<br> 
+                dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class='simple__decals'>
+                <div class='simple__decal-left'></div>
+                <div class='simple__decal-center'></div>
+                <div class='simple__decal-right'></div>
+            </div>    
+        </div>    
+        <div class='manage'>
+            <div class='manage__content'>
+                <h1 class='title manage__title'>Manage your <span class='manage__title--green'>meal time</span></h1>
+                <p class='text'>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit,<br> sed do eiusmod tempor 
+                incididunt ut labore et dolore<br> magna aliqua. Ut enim 
+                ad minim veniam.</p>
+            </div>
+            <div class='manage__notice'>
+                <div class='notice'>    
+                    <div class='notice-top__image'></div>
+                    <div class='notice__main'>
+                        <div class='notice__title'>Apple</div>
+                        <div class='notice__text'>Lorem ipsum dolor sit</div>
+                        <ul class='notice__option'>
+                            <li>35 G</li>
+                            <li class='notice__decal'></li>
+                            <li>189 KCAL</li>
+                        </ul>
+                    </div>
+                    <div class='notice__time'>
+                        <div class='notice__value'>01:00</div>
+                        <div class='notice__format'>PM</div>
+                    </div>
+                </div>
+                <div class='notice notice--large'>    
+                    <div class='notice-middle__image'></div>
+                    <div class='notice__main notice__main--large'>
+                        <div class='notice__title notice__title--large'>Sandwich</div>
+                        <div class='notice__text notice__text--large'>Lorem ipsum dolor sit</div>
+                        <ul class='notice__option notice__option--large'>
+                            <li>35 G</li>
+                            <li class='notice__decal'></li>
+                            <li>189 KCAL</li>
+                        </ul>
+                    </div>
+                    <div class='notice__time'>
+                        <div class='notice__value notice__value--large notice_value--green'>03:00</div>
+                        <div class='notice__format notice__format--large'>PM</div>
+                    </div>
+                </div>
+                <div class='notice'>    
+                    <div class='notice-bottom__image'></div>
+                    <div class='notice__main'>
+                        <div class='notice__title'>Salad with chiken</div>
+                        <div class='notice__text'>Lorem ipsum dolor sit</div>
+                        <ul class='notice__option'>
+                            <li>220 G</li>
+                            <li class='notice__decal'></li>
+                            <li>189 KCAL</li>
+                        </ul>
+                    </div>
+                    <div class='notice__time'>
+                        <div class='notice__value notice_value--green'>05:30</div>
+                        <div class='notice__format'>PM</div>
+                    </div>
+                </div>    
+            </div>        
+        </div>            
+        <footer class='footer'>
+            <div class='footer__content'>
+                <h1 class='title footer__title'>Download, customize & <strong>enjoy!</strong></h1>
+                <p class='text footer__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
                     sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua. 
                     Ut enim ad minim veniam.</p>
             </div>
-            <a href="#" class="footer__button">Get App</a>
+            <button href='#' class='button footer__button'>Get App</a>
         </footer>    
     </body>
 </html>        

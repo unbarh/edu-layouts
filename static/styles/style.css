@@ -1,13 +1,25 @@
-.main-page {
-    width: 2000px;
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
     margin: 0;
 }
 
 .header {
+    background-color: #2ecc71;
+}
+
+.header__wrapper {
+    width: 1171px;
     display: flex;
     align-items: center;
     background-color: #2ecc71;
-    padding: 22px 410px 0 420px;
+    padding-top: 22px;
+    margin: auto;
 }
 
 .header__logo {
@@ -16,385 +28,390 @@
     margin-right: 334px; 
 }
 
-.header__button {
+.button {
     color: #2ecc71;
-    height: 22px;
+    border: none;
     border-radius: 21px;
     background-color: #ffffff;
-    padding: 10.5px 0;
-    margin-right: 0px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 18px;
+}
+
+.header__button--padding {
+    padding: 11px 0;
+}
+
+.header__button--width {
     width: 140px;
 }
 
-.header__menu {
-    padding: 0; 
-}
-
-.menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 52px;
-}
-
-.menu__link {
+.header-menu__link {
     color: #ffffff;
     text-decoration: none;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 52px;
 }
 
 .welcome {
+    background: #2ecc71 url('../images/fruits-welcome.png') center 22px no-repeat;
+}
+
+.welcome__wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    background-color: #2ecc71;
-    background-image: url("/Git/repository/edu-layouts/static/images/welcome/fruits.png");
-    background-position: -150px 17px;
-    background-repeat: no-repeat;
-    padding: 77px 410px 0 420px;
+    width: 1171px;
+    background: #2ecc71 url('../images/fruits-welcome.png') -560px 16px no-repeat;
+    padding-top: 77px;
+    margin: auto;
 }
 
 .welcome__main {
-    justify-content: flex-start;
     margin-top: 120px;
-    
 }
 
-.main__icon {
-    width: 111px;
-    height: 111px;
-    border-radius: 25%;
+.welcome__icon {
+    width: 110px;
+    height: 110px;
+    border-radius: 26px;
     background-color: #2ecc71;
-    background-image: url("/Git/repository/edu-layouts/static/images/welcome/icon.png");
+    background-image: url('../images/icon-welcome.png');
     background-repeat: no-repeat;
     margin-bottom: 66px;
 }
 
-.main__content {
+.welcome__content {
     margin-bottom: 61px;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    font-size: 48px;
     margin-bottom: 26px;
     font-weight: normal;
 }
 
-.title_white {
+.welcome__title {
     color: #f4f4f4;
     font-size: 62px;
 }
 
-.title_bold {
-    font-weight: bold;
-}
-
 .text {
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     line-height: 32px;
 }
 
-.text_white {
+.welcome__text {
     color: #f4f4f4;
 }
 
-.main__buttons {
+.welcome__buttons {
     display: flex;
 }
 
-.buttons__button-google {
+.welcome__button-google {
     width: 137px;
     height: 46px;
-    background-image: url("/Git/repository/edu-layouts/static/images/welcome/downloadGoogle.png");
+    background-image: url('../images/button-google.png');
     background-repeat: no-repeat;
     margin-right: 30px;
 }
 
-.buttons__button-appstore {
+.welcome__button-appstore {
     width: 130px;
     height: 46px;
-    background-image: url("/Git/repository/edu-layouts/static/images/welcome/downloadAppstore.png");
+    background-image: url('../images/button-appstore.png');
     background-repeat: no-repeat;
 }
 
 .welcome__decal {
-    justify-content: flex-end;
-    background-image: url("/Git/repository/edu-layouts/static/images/welcome/photo1.png");
+    background-image: url('../images/phone-welcome.png');
     background-repeat: no-repeat;
     height: 753px;
     width: 404px;
 }
 
-.main__item-top {
+.best {
+    width: 1171px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    background-image: url(":/Git/repository/edu-layouts/static/images/main/item-top/strawberry.png");
-    background-repeat: no-repeat;
-    background-position: 900px -136px;
-    padding: 92px 410px 100px 420px;
+    background: url('../images/strawberry-best.png') 491px -136px no-repeat;
+    padding: 92px 0 210px 0;
+    margin: auto;
 }
 
-.decals__decal-1 {
+.best__decal {
     position: relative;
     width: 336px;
     height: 709px;
     z-index: 2;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/phone.png")
+    background-image: url('../images/phone-best.png')
 }
 
-.decals__icon {
+.icon {
     height: 59px;
     width: 59px;
     border: 3px solid #ffffff;
-    background-color: #e7e7e7;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
     border-radius: 50%;
-    position: absolute;
-    z-index: 2;
 }
 
-.decals__icon-1 {
+.best__icon-1 {
     top: 1106px;
     left: 794px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon1.png");
+    background: #e7e7e7 center no-repeat;
+    margin-left: 381px;
+    margin-top: -477px;
 }
 
-.decals__icon-2 {
-    top: 1181px;
-    left: 896px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon2.png");
+.best__icon-2 {
+    
+    background: #e7e7e7  no-repeat center;
+    margin-left: 484px;
+    margin-top: 18px;
 }
 
-.decals__icon-3 {
-    position: absolute;
-    z-index: 2;
-    height: 90px;
-    width: 90px;
-    top: 1303px;
-    left: 924px;
+.best__icon-3 {
+    height: 100px;
+    width: 100px;
     border: 5px solid #ffffff;
-    background-color: #2ecc71;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon3.png");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background: #2ecc71  no-repeat center;
     border-radius: 50%;
     box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1); 
+    margin-top: 54px;
+    margin-left: 503px;
 }
 
-.decals__icon-4 {
-    top: 1465px;
-    left: 896px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon4.png");
+.best__icon-4 {
+    background: #e7e7e7  no-repeat center;
+    margin-top: 57px;
+    margin-left: 484px;
 }
 
-.decals__icon-5 {
-    top: 1540px;
-    left: 794px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-top/icon5.png");
+.best__icon-5 {
+    background: #e7e7e7  no-repeat center;
+    margin-top: 16px;
+    margin-left: 382px
 }
 
-.decals__circle {
-    position: absolute;
-    left: 504px;
-    top: 1119px;
+.best__circle {
     width: 470px;
     height: 470px;
     border-radius: 50%;
     border: 1px solid #e7e7e7;
     z-index: 1;
+    margin-left: 87px;
+    margin-top: -585px;
 }
 
-.item-top__content {
+.best__content {
     margin-top: 245px;
 }
 
-.title_green {
+.best__title {
+    font-size: 48px;
+}
+
+.best__title--green {
     color: #2ecc71;
 }
 
-.main__item-middle {
+.simple {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f9;
+    background: #f9f9f9 url('../images/fruits-simple.png') center no-repeat ;
     width: 100%;
     padding-top: 116px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle/fruits.png");
-    background-repeat: no-repeat;
-    background-position: 230px 335px;
 }
 
-.item-middle__content {
+.simple__content {
     text-align: center;
     margin-bottom: 111px;
 }
 
-.item-middle__decals {
+.simple__title {
+    font-size: 48px;
+}
+
+.simple__title--green {
+    color: #2ecc71;
+}
+
+.simple__decals {
     display: flex;
     align-items: flex-end;
 }
 
-.item-middle__decal-1 {
+.simple__decal-left {
     width: 253px;
     height: 451px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle//phone1.png");
+    background-image: url('../images/phone-left.png');
     position: relative;
     left: 25px;
     z-index: 1;
 }
 
-.item-middle__decal-2 {
+.simple__decal-center {
     width: 337px;
     height: 545px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle/phone2.png");
+    background-image: url('../images/phone-center.png');
     z-index: 2;
 }
 
-.item-middle__decal-3 {
+.simple__decal-right {
     width: 253px;
     height: 451px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-middle/phone3.png");
+    background-image: url('../images/phone-right.png');
     position: relative;
     right: 25px;
 }
 
-.main__item-bottom {
+.manage {
+    width: 1171px;
     display: flex;
     justify-content: space-between;                                        
-    margin: 150px 410px 140px 420px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 113px;
 }
 
-.item-bottom__content {
+.manage__content {
     margin-top: 114px; 
 }
 
-.item-bottom__infoblocks {
+.manage__title {
+    font-size: 48px;
+}
+
+.manage__title--green {
+    color: #2ecc71;
+}
+
+.manage__notice {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    align-content: flex-end;
-    height: 400px;
 }
-
-.infoblocks__infoblock {
+ 
+.notice {
+    border: 1px solid #efefef;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #efefef;
-    border-radius: 10px;
-    width: 265px;
-    height: 105px;
+    width: 420px;
     line-height: 20px;
+    border-radius: 10px;
+    padding: 23px 19px;
+    margin-bottom: 28px;
 }
 
-.infoblocks__infoblock-name {
+.notice--large {
+    width: 525px;
+    line-height: 25px;
+    padding: 15px 19px;
+}
+
+
+.notice-top__image {
+    width: 95px;
+    height: 56px;
+    background-image: url('../images/apple.png');
+}
+
+.notice-middle__image {
+    width: 138px;
+    height: 102px;
+    background-image: url('../images/sandwich.png');
+}
+
+.notice-bottom__image {
+    width: 95px;
+    height: 56px;
+    background-image: url('../images/salad.png');
+}
+
+.notice__main {
+    margin-left: -50px;
+}
+
+.notice__main--large {
+    margin-left: -109px;
+}
+
+.notice__title {
     color: #2ecc71;
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
-.infoblocks__infoblock-description {
+.notice__title--large {
+    font-size: 20px;
+}
+
+.notice__text {
     color: #5a5a5a;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.infoblocks__infoblock-quantity {
+.notice__text--large {
+    font-size: 15px;
+}
+
+.notice__option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     color: #2ecc71;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/dot.png");
-    background-repeat: no-repeat;
-    background-position: 36px 6px;
-    white-space: pre;
 }
 
-.infoblocks__infoblock-time {
+.notice__option--large {
+    font-size: 15px;
+}
+
+.notice__decal {
+    height: 5px;
+    width: 5px;
+    background: url('../images/dot.png') no-repeat center;
+}
+
+.notice__time {
     color: #b4b4b4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.notice__value {
     font-size: 25px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    line-height: 17px;
-} 
-
-.infoblocks__infoblock-time_size {
-    color: #b4b4b4;
-    font-size: 16px;
-    padding-left: 39px;
 }
 
-.infoblocks__infoblock-1 {
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/photo1.png");
-    background-repeat: no-repeat;
-    background-position: 17px 25px;
-    padding-left: 132px;
-    padding-right: 20px;
-}
-
-.infoblocks__infoblock-2 {
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/photo2.png");
-    background-repeat: no-repeat;
-    background-position: 14px 12px;
-    width: 334px;
-    height: 133px;
-    padding-left: 162px;
-    padding-right: 26px;
-    line-height: 25px;
-}
-
-.infoblocks__infoblock-2-name {
-    font-size: 20px;
-}
-
-.infoblocks__infoblock-2-description {
-    font-size: 15px;
-}
-
-.infoblocks__infoblock-2-quantity {
-    font-size: 15px;
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/dot.png");
-    background-repeat: no-repeat;
-    background-position: 46px 9px;
-}
-
-.infoblocks__infoblock-2-time {
-    color: #2ecc71;
+.notice__value--large {
     font-size: 31px;
-    line-height: 20px;
-} 
+}
 
-.infoblocks__infoblock-2-time_size {
-    color: #b4b4b4;
+.notice__format {
+    font-size: 16px;
+    text-align: right;
+}
+
+.notice__format--large {
     font-size: 20px;
-    padding-left: 49px;
 }
 
-.infoblocks__infoblock-3 {
-    background-image: url("/Git/repository/edu-layouts/static/images/main/item-bottom/photo3.png");
-    background-repeat: no-repeat;
-    background-position: 9px 23px;;
-    padding-left: 132px;
-    padding-right: 20px;
-}
-
-.infoblocks__infoblock-3-time_color {
-    color: #2ecc71
+.notice_value--green {
+    color: #2ecc71;
 }
 
 .footer {
@@ -402,10 +419,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #2ecc71;
-    background-image: url("/Git/repository/edu-layouts/static/images/footer/fruits.png");
-    background-position: -90px 55px;
-    background-repeat: no-repeat;
+    background: #2ecc71 url('../images/footer-fruits.png') center no-repeat;
 }
 
 .footer__content {
@@ -414,15 +428,18 @@
     text-align: center;
 }
 
+.footer__title {
+    font-size: 48px;
+    color: #fff;
+}
+
+.footer__text {
+    color: #fff;
+}
 
 .footer__button {
-    border-radius: 21px;
-    background-color: #ffffff;
-    color: #2ecc71;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold; 
-    font-family: "Roboto", sans-serif;
-    padding: 10.5px 85px;
-    margin-bottom: 40px;
+    width: 240px;
+    padding: 10px;
+    margin-bottom: 100px;
 }
+
