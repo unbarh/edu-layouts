@@ -1,573 +1,489 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-    width: 2000px;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
-header {
-    background-color: #2ecc71;
-    padding-top: 22px;
+.header {
+  background-color: #2ecc71;
 }
 
-.main-menu {
-    padding: 0;
-    margin: 0 410px 0 420px;  
+.header__wrapper {
+  width: 1171px;
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+  margin: auto;
 }
 
-.main-menu li {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 52px;
+.header__logo {
+  margin-right: 334px;
 }
 
-.main-menu li:last-child {
-    margin-right: 0;
+.button {
+  color: #2ecc71;
+  border: none;
+  border-radius: 21px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 140px;
+  padding: 11px;
 }
 
-.menu {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
+.header-menu__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 52px;
 }
 
-.main-menu .element1 {
-    color: #ffffff;
-    font-family: "Segoe UI Black", sans-serif;
-    font-size: 39px;
-    font-style: italic;
-    margin-right: 334px;  
+.welcome {
+  background: #2ecc71 url('../images/fruits-welcome.png') center 22px no-repeat;
 }
 
-.element2 {
-    color: #2ecc71;
-    font-weight: bold;
-    border-radius: 21px;
-    background-color: #ffffff;
-    padding: 10.5px 35px;
-    margin-right: 0px;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    font-weight: bold;
+.welcome__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1171px;
+  background: #2ecc71 url('../images/fruits-welcome.png') -560px 16px no-repeat;
+  padding-top: 77px;
+  margin: auto;
 }
 
-.block1 {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    padding-top: 77px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/fruits.png");
-    background-position: -150px 17px;
-    background-repeat: no-repeat;
+.welcome__main {
+  margin-top: 120px;
 }
 
+.welcome__icon {
+  width: 110px;
+  height: 110px;
+  border-radius: 26px;
+  background: #2ecc71 url('../images/icon-welcome.png') no-repeat;
+  margin-bottom: 66px;
+}
+
+.welcome__content {
+  margin-bottom: 61px;
+}
+
+.welcome__title {
+  color: #f4f4f4;
+  font-size: 62px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
+}
+
+.welcome__text {
+  color: #f4f4f4;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
+}
+
+.welcome__buttons {
+  display: flex;
+}
+
+.welcome__button {
+  height: 46px;
+  width: 137px;
+}
+
+.welcome__button--google {
+  background-image: url('../images/button-google.png');
+}
+
+.welcome__button--appstore {
+  width: 130px;
+  background-image: url('../images/button-appstore.png');
+  margin-right: 30px;
+}
+
+.welcome__decal {
+  background-image: url('../images/phone-welcome.png');
+  background-repeat: no-repeat;
+  height: 753px;
+  width: 404px;
+}
+
+.feature {
+  width: 1171px;
+  display: flex;
+  justify-content: space-between;
+  background: url('../images/strawberry-feature.png') 491px -136px no-repeat;
+  padding: 92px 0 210px 0;
+  margin: auto;
+}
+
+.feature__decal {
+  position: relative;
+  width: 336px;
+  height: 709px;
+  background-image: url('../images/phone-feature.png')
+}
+
+.feature__icon {
+  height: 59px;
+  width: 59px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.feature__icon--1 {
+  top: 1106px;
+  left: 794px;
+  background: #e7e7e7 center no-repeat;
+  margin-left: 381px;
+  margin-top: -477px;
+}
+
+.feature__icon--2 {
+  background: #e7e7e7 no-repeat center;
+  margin-left: 484px;
+  margin-top: 18px;
+}
+
+.feature__icon--3 {
+  height: 100px;
+  width: 100px;
+  border: 5px solid #ffffff;
+  background: #2ecc71 no-repeat center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
+  margin-top: 54px;
+  margin-left: 503px;
+}
+
+.feature__icon--4 {
+  background: #e7e7e7 no-repeat center;
+  margin-top: 57px;
+  margin-left: 484px;
+}
+
+.feature__icon--5 {
+  background: #e7e7e7 no-repeat center;
+  margin-top: 16px;
+  margin-left: 382px
+}
+
+.feature__circle {
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+  margin-left: 87px;
+  margin-top: -585px;
+}
+
+.feature__content {
+  margin-top: 245px;
+}
+
+.feature__title {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
+}
+
+.text {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
+}
+
+.text--primary {
+  color: #2ecc71;
+}
+
+.feature__text {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
+}
+
+.simple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9 url('../images/fruits-simple.png') center no-repeat;
+  width: 100%;
+  padding-top: 116px;
+}
+
+.simple__content {
+  text-align: center;
+  margin-bottom: 111px;
+}
 
-.left {
-    justify-content: flex-start;
-    margin-top: 120px;
-    margin-left: 420px;
+.simple__title {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
-.icon-b1 {
-    width: 111px;
-    height: 111px;
-    border-radius: 25%;
-    background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/icon.png");
-    background-repeat: no-repeat;
-    margin-bottom: 66px;
+.simple__text {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
-.block1 .text {
-    width: 590px;
-    margin-bottom: 61px;
+.simple__decals {
+  display: flex;
+  align-items: flex-end;
 }
 
-.first-h1 {
-    color: #f4f4f4;
-    font-weight: normal;
-    font-size: 62px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px; 
+.simple__decal-left {
+  width: 253px;
+  height: 451px;
+  background-image: url('../images/phone-left.png');
+  position: relative;
+  left: 25px;
+  z-index: 1;
 }
 
-.first-h1 span {
-    font-weight: bold;
+.simple__decal-center {
+  width: 337px;
+  height: 545px;
+  background-image: url('../images/phone-center.png');
+  z-index: 2;
 }
 
-.first-p {
-    color: #f4f4f4;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+.simple__decal-right {
+  width: 253px;
+  height: 451px;
+  background-image: url('../images/phone-right.png');
+  position: relative;
+  right: 25px;
 }
 
-.download {
-    display: flex;
+.manage {
+  width: 1171px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 113px;
 }
 
-.downloadGoogle {
-    width: 137px;
-    height: 46px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/downloadGoogle.png");
-    background-repeat: no-repeat;
-    margin-right: 30px;
+.manage__content {
+  margin-top: 114px;
 }
 
-.downloadAppstore {
-    width: 130px;
-    height: 46px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/downloadAppstore.png");
-    background-repeat: no-repeat;
+.manage__title {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
-.right {
-    justify-content: flex-end;
-    margin-right: 410px;
+.manage__text {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
-.photo1 {
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block1/photo1.png");
-    background-repeat: no-repeat;
-    height: 753px;
-    width: 404px;
+.manage__notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.block2{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/strawberry.png");
-    background-repeat: no-repeat;
-    background-position: 900px -136px;
+.notice {
+  border: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  line-height: 20px;
+  border-radius: 10px;
+  padding: 23px 19px;
+  margin-bottom: 28px;
 }
 
-.block2 .left {
-    display: flex;
-    align-items: center;
-    margin-top: 92px;
+.notice--large {
+  width: 525px;
+  line-height: 25px;
+  padding: 15px 19px;
 }
 
-.phone {
-    width: 336px;
-    height: 709px;
-    z-index: 2;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/phone.png")
+.notice-top__image {
+  width: 95px;
+  height: 56px;
+  background-image: url('../images/apple.png');
 }
 
-.icon-b2 {
-    position: absolute;
-    height: 59px;
-    width: 59px;
-    border: 3px solid #ffffff;
-    background-color: #e7e7e7;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border-radius: 50%;
-    z-index: 2;
+.notice-middle__image {
+  width: 138px;
+  height: 102px;
+  background-image: url('../images/sandwich.png');
 }
 
-.icon1-b2 {
-    top: 1106px;
-    left: 794px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon1.png");
+.notice-bottom__image {
+  width: 95px;
+  height: 56px;
+  background-image: url('../images/salad.png');
 }
 
-.icon2-b2 {
-    top: 1181px;
-    left: 896px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon2.png");
+.notice__main {
+  margin-left: -50px;
 }
 
-.icon4-b2 {
-    top: 1465px;
-    left: 896px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon4.png");
+.notice__main--large {
+  margin-left: -109px;
 }
 
-.icon5-b2 {
-    top: 1540px;
-    left: 794px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon5.png");
+.notice__title {
+  color: #2ecc71;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
-.icon3-b2 {
-    z-index: 2;
-    height: 90px;
-    width: 90px;
-    border: 5px solid #ffffff;
-    background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block2/icon3.png");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    border-radius: 50%;
-    box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
-    margin-left: 165px;
+.notice__title--large {
+  font-size: 20px;
 }
 
-.circle {
-    position: absolute;
-    left: 504px;
-    top: 1119px;
-    width: 470px;
-    height: 470px;
-    border-radius: 50%;
-    border: 1px solid #e7e7e7;
-    z-index: 1;
+.notice__text {
+  color: #5a5a5a;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.block2 .right {
-    margin-top: 372px;
+.notice__text--large {
+  font-size: 15px;
 }
 
-.second-h1 {
-    color: #5a5a5a;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 29px;
+.notice__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: #2ecc71;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
-.second-h1 span {
-    color: #2ecc71;
+.notice__options--large {
+  font-size: 15px;
 }
 
-.second-p {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+.notice__option {
+  position: relative;
+  margin-right: 20px;
 }
 
-.block3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f9f9f9;
-    width: 100%;
-    padding-top: 116px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/fruits.png");
-    background-repeat: no-repeat;
-    background-position: 230px 335px;
+.notice__option:last-child {
+  margin-right: 0;
 }
 
-.block3 .text {
-    text-align: center;
-    margin-bottom: 111px;
+.notice__option::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  height: 5px;
+  width: 5px;
+  background: url('../images/dot.png') no-repeat center;
 }
 
-.third-h1 {
-    color: #5a5a5a;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 31px;
+.notice__option:last-child::before {
+  display: none;
 }
 
-.third-h1 span {
-    color: #2ecc71;
+.notice__time {
+  color: #b4b4b4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
-.third-p {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+.notice__value {
+  font-size: 25px;
 }
 
-.phone-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+.notice__value--large {
+  font-size: 31px;
 }
 
-.phone1 {
-    width: 253px;
-    height: 451px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone1.png");
-    position: relative;
-    left: 25px;
-    z-index: 1;
+.notice__format {
+  font-size: 16px;
+  text-align: right;
 }
 
-.phone2 {
-    width: 337px;
-    height: 545px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone2.png");
-    z-index: 2;
+.notice__format--large {
+  font-size: 20px;
 }
 
-.phone3 {
-    width: 253px;
-    height: 451px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block3/phone3.png");
-    position: relative;
-    right: 25px;
+.notice_value--color {
+  color: #2ecc71;
 }
-
-.block4 {
-    display: flex;
-    justify-content: space-between;                                        
-    margin: 150px 410px 140px 420px;
-}
-
-.block4 .text {
-    margin-top: 114px; 
-}
-
-.fourth-h1 {
-    color: #5a5a5a;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 19px;
-}
-
-.fourth-h1 span {
-    color: #2ecc71;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #2ecc71 url('../images/footer-fruits.png') center 25px no-repeat;
+  padding-top: 110px;
+  padding-bottom: 93px;
+}
+
+.footer__content {
+  margin-bottom: 52px;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 48px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
-
-.fourth-p {
-    color: #5a5a5a;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
-}
-
-.block4-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #efefef;
-    border-radius: 10px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo1.png");
-    background-repeat: no-repeat;
-    background-position: 17px 25px;
-    width: 265px;
-    height: 105px;
-    padding-left: 132px;
-    padding-right: 20px;
-    margin-bottom: 28px;
-    line-height: 20px;
-}
-
-.block4-1 .name {
-    color: #2ecc71;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-}
-
-.block4-1 .description {
-    color: #5a5a5a;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-}
-
-.block4-1 .quantity {
-    color: #2ecc71;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/dot.png");
-    background-repeat: no-repeat;
-    background-position: 36px 6px;
-    white-space: pre;
-}
-
-.block4-1 .time {
-    color: #b4b4b4;
-    font-size: 25px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    line-height: 17px;
-} 
-
-.block4-1 .time span {
-    color: #b4b4b4;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    padding-left: 39px;
-}
-
-.block4-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #efefef;
-    border-radius: 10px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo2.png");
-    background-repeat: no-repeat;
-    background-position: 14px 12px;
-    width: 334px;
-    height: 133px;
-    margin-bottom: 28px;
-    margin-left: -52px;
-    padding-left: 162px;
-    padding-right: 26px;
-    line-height: 25px;
-}
-
-.block4-2 .name {
-    color: #2ecc71;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-}
-
-.block4-2 .description {
-    color: #5a5a5a;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-}
-
-.block4-2 .quantity {
-    color: #2ecc71;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/dot.png");
-    background-repeat: no-repeat;
-    background-position: 46px 9px;
-    white-space: pre;
-}
-
-.block4-2 .time {
-    color: #2ecc71;
-    font-size: 31px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    line-height: 20px;
-} 
-
-.block4-2 .time span {
-    color: #b4b4b4;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    padding-left: 49px;
-}
-
-.block4-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #efefef;
-    border-radius: 10px;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/photo3.png");
-    background-repeat: no-repeat;
-    background-position: 9px 23px;;
-    width: 265px;
-    height: 105px;
-    padding-left: 132px;
-    padding-right: 20px;
-    line-height: 20px;
-}
-
-.block4-3 .name {
-    color: #2ecc71;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-}
-
-.block4-3 .description {
-    color: #5a5a5a;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-}
-
-.block4-3 .quantity {
-    color: #2ecc71;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/block4/dot.png");
-    background-repeat: no-repeat;
-    background-position: 44px 6px;
-    white-space: pre;
-}
-
-.block4-3 .time {
-    color: #2ecc71;
-    font-size: 25px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    line-height: 17px;
-} 
-
-.block4-3 .time span {
-    color: #b4b4b4;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    padding-left: 39px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #2ecc71;
-    background-image: url("D:/Git/repository/edu-layouts/static/images/footer/fruits.png");
-    background-position: -90px 55px;
-    background-repeat: no-repeat;
-    padding-top: 113px;
-    padding-bottom: 100px;
-}
-
-.footer-h1 {
-    color: #ffffff;
-    font-weight: normal;
-    font-size: 48px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 31px;
-    text-align: center;
-}
-
-.footer-h1 span {
-    font-weight: bold;
-}
-
-.footer-p {
-    color: #ffffff;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-footer a {
-    border-radius: 21px;
-    background-color: #ffffff;
-    color: #2ecc71;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold; 
-    font-family: "Roboto", sans-serif;
-    padding: 10.5px 85px;
 
+.button--wide {
+  width: 246px;
 }
