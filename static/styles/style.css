@@ -17,14 +17,11 @@ body {
     width: 1171px;
     display: flex;
     align-items: center;
-    background-color: #2ecc71;
     padding-top: 22px;
     margin: auto;
 }
 
 .header__logo {
-    width: 133px;
-    height: 38px;
     margin-right: 334px; 
 }
 
@@ -32,18 +29,12 @@ body {
     color: #2ecc71;
     border: none;
     border-radius: 21px;
-    background-color: #ffffff;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 18px;
-}
-
-.header__button--padding {
-    padding: 11px 0;
-}
-
-.header__button--width {
     width: 140px;
+    padding: 11px;
 }
 
 .header-menu__link {
@@ -75,9 +66,7 @@ body {
     width: 110px;
     height: 110px;
     border-radius: 26px;
-    background-color: #2ecc71;
-    background-image: url('../images/icon-welcome.png');
-    background-repeat: no-repeat;
+    background: #2ecc71 url('../images/icon-welcome.png') no-repeat;
     margin-bottom: 66px;
 }
 
@@ -85,7 +74,9 @@ body {
     margin-bottom: 61px;
 }
 
-.title {
+.welcome__title {
+    color: #f4f4f4;
+    font-size: 62px;
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
@@ -93,12 +84,8 @@ body {
     font-weight: normal;
 }
 
-.welcome__title {
+.welcome__text {
     color: #f4f4f4;
-    font-size: 62px;
-}
-
-.text {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -106,27 +93,23 @@ body {
     line-height: 32px;
 }
 
-.welcome__text {
-    color: #f4f4f4;
-}
-
 .welcome__buttons {
     display: flex;
 }
 
-.welcome__button-google {
-    width: 137px;
+.welcome__button {
     height: 46px;
-    background-image: url('../images/button-google.png');
-    background-repeat: no-repeat;
-    margin-right: 30px;
+    width: 137px;
 }
 
-.welcome__button-appstore {
+.welcome__button--google {
+    background-image: url('../images/button-google.png');
+}
+
+.welcome__button--appstore {
     width: 130px;
-    height: 46px;
     background-image: url('../images/button-appstore.png');
-    background-repeat: no-repeat;
+    margin-right: 30px;
 }
 
 .welcome__decal {
@@ -136,31 +119,30 @@ body {
     width: 404px;
 }
 
-.best {
+.feature {
     width: 1171px;
     display: flex;
     justify-content: space-between;
-    background: url('../images/strawberry-best.png') 491px -136px no-repeat;
+    background: url('../images/strawberry-feature.png') 491px -136px no-repeat;
     padding: 92px 0 210px 0;
     margin: auto;
 }
 
-.best__decal {
+.feature__decal {
     position: relative;
     width: 336px;
     height: 709px;
-    z-index: 2;
-    background-image: url('../images/phone-best.png')
+    background-image: url('../images/phone-feature.png')
 }
 
-.icon {
+.feature__icon {
     height: 59px;
     width: 59px;
     border: 3px solid #ffffff;
     border-radius: 50%;
 }
 
-.best__icon-1 {
+.feature__icon--1 {
     top: 1106px;
     left: 794px;
     background: #e7e7e7 center no-repeat;
@@ -168,14 +150,13 @@ body {
     margin-top: -477px;
 }
 
-.best__icon-2 {
-    
+.feature__icon--2 {
     background: #e7e7e7  no-repeat center;
     margin-left: 484px;
     margin-top: 18px;
 }
 
-.best__icon-3 {
+.feature__icon--3 {
     height: 100px;
     width: 100px;
     border: 5px solid #ffffff;
@@ -186,38 +167,59 @@ body {
     margin-left: 503px;
 }
 
-.best__icon-4 {
+.feature__icon--4 {
     background: #e7e7e7  no-repeat center;
     margin-top: 57px;
     margin-left: 484px;
 }
 
-.best__icon-5 {
+.feature__icon--5 {
     background: #e7e7e7  no-repeat center;
     margin-top: 16px;
     margin-left: 382px
 }
 
-.best__circle {
+.feature__circle {
     width: 470px;
     height: 470px;
     border-radius: 50%;
     border: 1px solid #e7e7e7;
-    z-index: 1;
     margin-left: 87px;
     margin-top: -585px;
 }
 
-.best__content {
+.feature__content {
     margin-top: 245px;
 }
 
-.best__title {
+.feature__title {
     font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: normal;
 }
 
-.best__title--green {
+.text {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: normal;
+}
+
+.text--primary {
     color: #2ecc71;
+}
+
+.feature__text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
 }
 
 .simple {
@@ -236,10 +238,20 @@ body {
 
 .simple__title {
     font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: normal;
 }
 
-.simple__title--green {
-    color: #2ecc71;
+
+.simple__text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
 }
 
 .simple__decals {
@@ -286,10 +298,19 @@ body {
 
 .manage__title {
     font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: normal;
 }
 
-.manage__title--green {
-    color: #2ecc71;
+.manage__text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
 }
 
 .manage__notice {
@@ -368,7 +389,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
     padding: 0;
     margin: 0;
     color: #2ecc71;
@@ -410,7 +430,7 @@ body {
     font-size: 20px;
 }
 
-.notice_value--green {
+.notice_value--color {
     color: #2ecc71;
 }
 
@@ -419,27 +439,36 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: #2ecc71 url('../images/footer-fruits.png') center no-repeat;
+    background: #2ecc71 url('../images/footer-fruits.png') center 25px no-repeat;
+    padding-top: 110px;
+    padding-bottom: 93px;
 }
 
 .footer__content {
-    padding-top: 113px;
-    padding-bottom: 52px;
+    margin-bottom: 52px;
     text-align: center;
 }
 
 .footer__title {
     font-size: 48px;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: normal;
 }
 
 .footer__text {
     color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 32px;
 }
 
-.footer__button {
-    width: 240px;
-    padding: 10px;
-    margin-bottom: 100px;
+.button--wide {
+    width: 246px;
 }
 
