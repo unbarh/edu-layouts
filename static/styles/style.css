@@ -383,7 +383,7 @@ body {
   font-size: 15px;
 }
 
-.notice__option {
+.notice__options {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -395,14 +395,32 @@ body {
   font-weight: bold;
 }
 
-.notice__option--large {
+.notice__options--large {
   font-size: 15px;
 }
 
-.notice__decal {
+.notice__option {
+  position: relative;
+  margin-right: 20px;
+}
+
+.notice__option:last-child {
+  margin-right: 0;
+}
+
+.notice__option::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -24px;
   height: 5px;
   width: 5px;
   background: url('../images/dot.png') no-repeat center;
+}
+
+.notice__option:last-child::before {
+  display: none;
 }
 
 .notice__time {
