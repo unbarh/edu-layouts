@@ -1,474 +1,471 @@
-*, 
-*::before, 
+*,
+*::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 .header {
-    background-color: #2ecc71;
+  background-color: #2ecc71;
 }
 
 .header__wrapper {
-    width: 1171px;
-    display: flex;
-    align-items: center;
-    padding-top: 22px;
-    margin: auto;
+  width: 1171px;
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+  margin: auto;
 }
 
 .header__logo {
-    margin-right: 334px; 
+  margin-right: 334px;
 }
 
 .button {
-    color: #2ecc71;
-    border: none;
-    border-radius: 21px;
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    width: 140px;
-    padding: 11px;
+  color: #2ecc71;
+  border: none;
+  border-radius: 21px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 140px;
+  padding: 11px;
 }
 
 .header-menu__link {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 52px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-right: 52px;
 }
 
 .welcome {
-    background: #2ecc71 url('../images/fruits-welcome.png') center 22px no-repeat;
+  background: #2ecc71 url('../images/fruits-welcome.png') center 22px no-repeat;
 }
 
 .welcome__wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 1171px;
-    background: #2ecc71 url('../images/fruits-welcome.png') -560px 16px no-repeat;
-    padding-top: 77px;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1171px;
+  background: #2ecc71 url('../images/fruits-welcome.png') -560px 16px no-repeat;
+  padding-top: 77px;
+  margin: auto;
 }
 
 .welcome__main {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .welcome__icon {
-    width: 110px;
-    height: 110px;
-    border-radius: 26px;
-    background: #2ecc71 url('../images/icon-welcome.png') no-repeat;
-    margin-bottom: 66px;
+  width: 110px;
+  height: 110px;
+  border-radius: 26px;
+  background: #2ecc71 url('../images/icon-welcome.png') no-repeat;
+  margin-bottom: 66px;
 }
 
 .welcome__content {
-    margin-bottom: 61px;
+  margin-bottom: 61px;
 }
 
 .welcome__title {
-    color: #f4f4f4;
-    font-size: 62px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px;
-    font-weight: normal;
+  color: #f4f4f4;
+  font-size: 62px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
 .welcome__text {
-    color: #f4f4f4;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+  color: #f4f4f4;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
 .welcome__buttons {
-    display: flex;
+  display: flex;
 }
 
 .welcome__button {
-    height: 46px;
-    width: 137px;
+  height: 46px;
+  width: 137px;
 }
 
 .welcome__button--google {
-    background-image: url('../images/button-google.png');
+  background-image: url('../images/button-google.png');
 }
 
 .welcome__button--appstore {
-    width: 130px;
-    background-image: url('../images/button-appstore.png');
-    margin-right: 30px;
+  width: 130px;
+  background-image: url('../images/button-appstore.png');
+  margin-right: 30px;
 }
 
 .welcome__decal {
-    background-image: url('../images/phone-welcome.png');
-    background-repeat: no-repeat;
-    height: 753px;
-    width: 404px;
+  background-image: url('../images/phone-welcome.png');
+  background-repeat: no-repeat;
+  height: 753px;
+  width: 404px;
 }
 
 .feature {
-    width: 1171px;
-    display: flex;
-    justify-content: space-between;
-    background: url('../images/strawberry-feature.png') 491px -136px no-repeat;
-    padding: 92px 0 210px 0;
-    margin: auto;
+  width: 1171px;
+  display: flex;
+  justify-content: space-between;
+  background: url('../images/strawberry-feature.png') 491px -136px no-repeat;
+  padding: 92px 0 210px 0;
+  margin: auto;
 }
 
 .feature__decal {
-    position: relative;
-    width: 336px;
-    height: 709px;
-    background-image: url('../images/phone-feature.png')
+  position: relative;
+  width: 336px;
+  height: 709px;
+  background-image: url('../images/phone-feature.png')
 }
 
 .feature__icon {
-    height: 59px;
-    width: 59px;
-    border: 3px solid #ffffff;
-    border-radius: 50%;
+  height: 59px;
+  width: 59px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
 }
 
 .feature__icon--1 {
-    top: 1106px;
-    left: 794px;
-    background: #e7e7e7 center no-repeat;
-    margin-left: 381px;
-    margin-top: -477px;
+  top: 1106px;
+  left: 794px;
+  background: #e7e7e7 center no-repeat;
+  margin-left: 381px;
+  margin-top: -477px;
 }
 
 .feature__icon--2 {
-    background: #e7e7e7  no-repeat center;
-    margin-left: 484px;
-    margin-top: 18px;
+  background: #e7e7e7 no-repeat center;
+  margin-left: 484px;
+  margin-top: 18px;
 }
 
 .feature__icon--3 {
-    height: 100px;
-    width: 100px;
-    border: 5px solid #ffffff;
-    background: #2ecc71  no-repeat center;
-    border-radius: 50%;
-    box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1); 
-    margin-top: 54px;
-    margin-left: 503px;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #ffffff;
+  background: #2ecc71 no-repeat center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
+  margin-top: 54px;
+  margin-left: 503px;
 }
 
 .feature__icon--4 {
-    background: #e7e7e7  no-repeat center;
-    margin-top: 57px;
-    margin-left: 484px;
+  background: #e7e7e7 no-repeat center;
+  margin-top: 57px;
+  margin-left: 484px;
 }
 
 .feature__icon--5 {
-    background: #e7e7e7  no-repeat center;
-    margin-top: 16px;
-    margin-left: 382px
+  background: #e7e7e7 no-repeat center;
+  margin-top: 16px;
+  margin-left: 382px
 }
 
 .feature__circle {
-    width: 470px;
-    height: 470px;
-    border-radius: 50%;
-    border: 1px solid #e7e7e7;
-    margin-left: 87px;
-    margin-top: -585px;
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  border: 1px solid #e7e7e7;
+  margin-left: 87px;
+  margin-top: -585px;
 }
 
 .feature__content {
-    margin-top: 245px;
+  margin-top: 245px;
 }
 
 .feature__title {
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px;
-    font-weight: normal;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
 .text {
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px;
-    font-weight: normal;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
 .text--primary {
-    color: #2ecc71;
+  color: #2ecc71;
 }
 
 .feature__text {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
 .simple {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #f9f9f9 url('../images/fruits-simple.png') center no-repeat ;
-    width: 100%;
-    padding-top: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9f9 url('../images/fruits-simple.png') center no-repeat;
+  width: 100%;
+  padding-top: 116px;
 }
 
 .simple__content {
-    text-align: center;
-    margin-bottom: 111px;
+  text-align: center;
+  margin-bottom: 111px;
 }
 
 .simple__title {
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px;
-    font-weight: normal;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
-
 .simple__text {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
 .simple__decals {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 .simple__decal-left {
-    width: 253px;
-    height: 451px;
-    background-image: url('../images/phone-left.png');
-    position: relative;
-    left: 25px;
-    z-index: 1;
+  width: 253px;
+  height: 451px;
+  background-image: url('../images/phone-left.png');
+  position: relative;
+  left: 25px;
+  z-index: 1;
 }
 
 .simple__decal-center {
-    width: 337px;
-    height: 545px;
-    background-image: url('../images/phone-center.png');
-    z-index: 2;
+  width: 337px;
+  height: 545px;
+  background-image: url('../images/phone-center.png');
+  z-index: 2;
 }
 
 .simple__decal-right {
-    width: 253px;
-    height: 451px;
-    background-image: url('../images/phone-right.png');
-    position: relative;
-    right: 25px;
+  width: 253px;
+  height: 451px;
+  background-image: url('../images/phone-right.png');
+  position: relative;
+  right: 25px;
 }
 
 .manage {
-    width: 1171px;
-    display: flex;
-    justify-content: space-between;                                        
-    margin: auto;
-    padding-top: 150px;
-    padding-bottom: 113px;
+  width: 1171px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 113px;
 }
 
 .manage__content {
-    margin-top: 114px; 
+  margin-top: 114px;
 }
 
 .manage__title {
-    font-size: 48px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px;
-    font-weight: normal;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
 .manage__text {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
 .manage__notice {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
- 
+
 .notice {
-    border: 1px solid #efefef;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 420px;
-    line-height: 20px;
-    border-radius: 10px;
-    padding: 23px 19px;
-    margin-bottom: 28px;
+  border: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  line-height: 20px;
+  border-radius: 10px;
+  padding: 23px 19px;
+  margin-bottom: 28px;
 }
 
 .notice--large {
-    width: 525px;
-    line-height: 25px;
-    padding: 15px 19px;
+  width: 525px;
+  line-height: 25px;
+  padding: 15px 19px;
 }
 
-
 .notice-top__image {
-    width: 95px;
-    height: 56px;
-    background-image: url('../images/apple.png');
+  width: 95px;
+  height: 56px;
+  background-image: url('../images/apple.png');
 }
 
 .notice-middle__image {
-    width: 138px;
-    height: 102px;
-    background-image: url('../images/sandwich.png');
+  width: 138px;
+  height: 102px;
+  background-image: url('../images/sandwich.png');
 }
 
 .notice-bottom__image {
-    width: 95px;
-    height: 56px;
-    background-image: url('../images/salad.png');
+  width: 95px;
+  height: 56px;
+  background-image: url('../images/salad.png');
 }
 
 .notice__main {
-    margin-left: -50px;
+  margin-left: -50px;
 }
 
 .notice__main--large {
-    margin-left: -109px;
+  margin-left: -109px;
 }
 
 .notice__title {
-    color: #2ecc71;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+  color: #2ecc71;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .notice__title--large {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .notice__text {
-    color: #5a5a5a;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+  color: #5a5a5a;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .notice__text--large {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .notice__option {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    color: #2ecc71;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: #2ecc71;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .notice__option--large {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .notice__decal {
-    height: 5px;
-    width: 5px;
-    background: url('../images/dot.png') no-repeat center;
+  height: 5px;
+  width: 5px;
+  background: url('../images/dot.png') no-repeat center;
 }
 
 .notice__time {
-    color: #b4b4b4;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+  color: #b4b4b4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .notice__value {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .notice__value--large {
-    font-size: 31px;
+  font-size: 31px;
 }
 
 .notice__format {
-    font-size: 16px;
-    text-align: right;
+  font-size: 16px;
+  text-align: right;
 }
 
 .notice__format--large {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .notice_value--color {
-    color: #2ecc71;
+  color: #2ecc71;
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background: #2ecc71 url('../images/footer-fruits.png') center 25px no-repeat;
-    padding-top: 110px;
-    padding-bottom: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #2ecc71 url('../images/footer-fruits.png') center 25px no-repeat;
+  padding-top: 110px;
+  padding-bottom: 93px;
 }
 
 .footer__content {
-    margin-bottom: 52px;
-    text-align: center;
+  margin-bottom: 52px;
+  text-align: center;
 }
 
 .footer__title {
-    font-size: 48px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 26px;
-    font-weight: normal;
+  font-size: 48px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: normal;
 }
 
 .footer__text {
-    color: #fff;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    line-height: 32px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 32px;
 }
 
 .button--wide {
-    width: 246px;
+  width: 246px;
 }
-
