@@ -425,8 +425,6 @@ body {
 
 .notice__options {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0;
   margin: 0;
   color: #2ecc71;
@@ -441,7 +439,7 @@ body {
 
 .notice__option {
   position: relative;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .notice__option:last-child {
@@ -452,8 +450,8 @@ body {
   content: '';
   display: block;
   position: absolute;
-  top: 50%;
-  right: -24px;
+  top: 36%;
+  right: -16px;
   height: 5px;
   width: 5px;
   background: url('../images/dot.png') no-repeat center;
