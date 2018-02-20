@@ -23,6 +23,13 @@ body {
 
 .header__logo {
   margin-right: 334px;
+  background: url('../images/logo.png');
+  width: 133px;
+  height: 38px;
+}
+
+.header__logo:hover {
+  opacity: 0.65;
 }
 
 .button {
@@ -100,6 +107,7 @@ body {
 .welcome__button {
   height: 46px;
   width: 137px;
+  background: center no-repeat;
 }
 
 .welcome__button--google {
