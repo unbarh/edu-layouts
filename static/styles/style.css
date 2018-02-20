@@ -44,6 +44,10 @@ body {
   padding: 11px;
 }
 
+.button:hover {
+  opacity: 0.65;
+}
+
 .header-menu__link {
   color: #ffffff;
   text-decoration: none;
