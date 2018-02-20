@@ -52,6 +52,10 @@ body {
   margin-right: 52px;
 }
 
+.header-menu__link:hover {
+  text-decoration: underline;
+}
+
 .welcome {
   background: #2ecc71 url('../images/fruits-welcome.png') center 22px no-repeat;
 }
