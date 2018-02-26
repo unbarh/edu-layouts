@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+a:focus,
+input[type="button"]:focus,
+button:focus {
+  outline: none
+}
+
 body {
   width: 100%;
   margin: 0;
@@ -25,6 +31,11 @@ body {
   margin-right: 334px;
 }
 
+.header__logo:hover {
+  opacity: 0.65;
+  transition-duration: 400ms;
+}
+
 .button {
   color: #2ecc71;
   border: none;
@@ -37,12 +48,25 @@ body {
   padding: 11px;
 }
 
+.button:hover {
+  background-color: #2ecc71;
+  color: #fff;
+  border: 3px solid #fff;
+  transition-duration: 600ms;
+  padding: 8px;
+  cursor: pointer;
+}
+
 .header-menu__link {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   margin-right: 52px;
+}
+
+.header-menu__link:hover {
+  text-decoration: underline;
 }
 
 .welcome {
@@ -100,6 +124,12 @@ body {
 .welcome__button {
   height: 46px;
   width: 137px;
+  background: center no-repeat;
+}
+
+.welcome__button:hover {
+  opacity: 0.65;
+  transition-duration: 400ms;
 }
 
 .welcome__button--google {
@@ -124,18 +154,26 @@ body {
   display: flex;
   justify-content: space-between;
   background: url('../images/strawberry-feature.png') 491px -136px no-repeat;
-  padding: 92px 0 210px 0;
+  padding: 92px 0 385px 0;
   margin: auto;
 }
 
-.feature__decal {
+.wrapper {
   position: relative;
-  width: 336px;
-  height: 709px;
-  background-image: url('../images/phone-feature.png')
+}
+
+.feature__decal {
+  position: absolute;
+  z-index: 2;
+  left: -38px;
+  width: 443px;
+  height: 784px;
+  background-image: url('../images/phone-feature4.png')
 }
 
 .feature__icon {
+  position: absolute;
+  z-index: 2;
   height: 59px;
   width: 59px;
   border: 3px solid #ffffff;
@@ -143,49 +181,49 @@ body {
 }
 
 .feature__icon--1 {
-  top: 1106px;
-  left: 794px;
+  top: 116px;
+  left: 384px;
   background: #e7e7e7 center no-repeat;
-  margin-left: 381px;
-  margin-top: -477px;
 }
 
 .feature__icon--2 {
+  top: 193px;
+  left: 486px;
   background: #e7e7e7 no-repeat center;
-  margin-left: 484px;
-  margin-top: 18px;
 }
 
 .feature__icon--3 {
   height: 100px;
   width: 100px;
+  top: 302px;
+  left: 505px;
   border: 5px solid #ffffff;
   background: #2ecc71 no-repeat center;
   border-radius: 50%;
   box-shadow: 0px 0px 30px 4px rgba(50, 50, 50, 0.1);
-  margin-top: 54px;
-  margin-left: 503px;
 }
 
 .feature__icon--4 {
+  top: 464px;
+  left: 486px;
   background: #e7e7e7 no-repeat center;
-  margin-top: 57px;
-  margin-left: 484px;
 }
 
 .feature__icon--5 {
+  top: 538px;
+  left: 384px;
   background: #e7e7e7 no-repeat center;
-  margin-top: 16px;
-  margin-left: 382px
 }
 
 .feature__circle {
+  position: absolute;
+  top: 123px;
+  left: 88px;
+  z-index: 1;
   width: 470px;
   height: 470px;
   border-radius: 50%;
   border: 1px solid #e7e7e7;
-  margin-left: 87px;
-  margin-top: -585px;
 }
 
 .feature__content {
@@ -385,8 +423,6 @@ body {
 
 .notice__options {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0;
   margin: 0;
   color: #2ecc71;
@@ -401,7 +437,7 @@ body {
 
 .notice__option {
   position: relative;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .notice__option:last-child {
@@ -412,8 +448,8 @@ body {
   content: '';
   display: block;
   position: absolute;
-  top: 50%;
-  right: -24px;
+  top: 36%;
+  right: -16px;
   height: 5px;
   width: 5px;
   background: url('../images/dot.png') no-repeat center;
